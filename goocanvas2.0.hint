@@ -1,0 +1,3 @@
+category: Gnome
+sdesc: "cairo-based GTK+ canvas widget (source)"
+ldesc: "A cairo-based canvas widget for GTK+"
