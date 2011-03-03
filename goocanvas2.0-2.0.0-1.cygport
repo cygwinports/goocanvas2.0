@@ -4,8 +4,6 @@ inherit gnome2
 DESCRIPTION="Cairo-based GTK+ canvas widget"
 HOMEPAGE="http://sourceforge.net/projects/goocanvas/"
 
-PATCH_URI="1.90.2-parallel-install.patch"
-
 PKG_NAMES="lib${PN}_9 lib${PN}-devel"
 libgoocanvas2_0_9_CONTENTS="--exclude=gtk-doc usr/bin/*-2.0-9.dll usr/share/"
 libgoocanvas2_0_devel_CONTENTS="usr/include/ usr/lib/ usr/share/gtk-doc/"
