@@ -1,5 +1,5 @@
 category: Gnome
-requires: libgoocanvas2.0_9 libatk1.0-devel libcairo-devel libglib2.0-devel libgdk_pixbuf2.0-devel libgtk3-devel gettext libpango1.0-devel
+requires: libgoocanvas2.0_9 libatk1.0-devel libcairo-devel libglib2.0-devel libgdk_pixbuf2.0-devel libgtk3-devel libpango1.0-devel
 external-source: goocanvas2.0
 sdesc: "cairo-based GTK+ canvas widget (development)"
 ldesc: "A cairo-based canvas widget for GTK+"

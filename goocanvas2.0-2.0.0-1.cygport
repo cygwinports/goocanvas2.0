@@ -1,9 +1,0 @@
-ORIG_PN="goocanvas"
-inherit gnome2
-
-DESCRIPTION="Cairo-based GTK+ canvas widget"
-HOMEPAGE="http://sourceforge.net/projects/goocanvas/"
-
-PKG_NAMES="lib${PN}_9 lib${PN}-devel"
-libgoocanvas2_0_9_CONTENTS="--exclude=gtk-doc usr/bin/*-2.0-9.dll usr/share/"
-libgoocanvas2_0_devel_CONTENTS="usr/include/ usr/lib/ usr/share/gtk-doc/"

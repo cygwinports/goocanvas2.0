@@ -1,5 +1,5 @@
 category: Gnome
-requires: libatk1.0_0 libcairo2 libglib2.0_0 libgdk_pixbuf2.0_0 libgtk3_0 libintl8 libpango1.0_0
+requires: libatk1.0_0 libcairo2 libglib2.0_0 libgdk_pixbuf2.0_0 libgtk3_0 libpango1.0_0
 external-source: goocanvas2.0
 sdesc: "cairo-based GTK+ canvas widget (runtime)"
 ldesc: "A cairo-based canvas widget for GTK+"
