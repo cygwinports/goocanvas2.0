@@ -2,7 +2,7 @@ ORIG_PN="goocanvas"
 inherit gnome2 python
 
 NAME="goocanvas2.0"
-VERSION=2.0.1
+VERSION=2.0.2
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="cairo-based GTK+ canvas widget"
@@ -18,7 +18,9 @@ DEPEND="gnome-common gtk-doc
 	girepository(Gtk-3.0)
 	pkgconfig(gtk+-3.0)"
 
-PKG_NAMES="lib${NAME}_9 lib${NAME}-devel girepository-GooCanvas2.0"
+PKG_NAMES="lib${NAME}_9 lib${NAME}-devel lib${NAME}-doc girepository-GooCanvas2.0"
 libgoocanvas2_0_9_CONTENTS="usr/bin/*-2.0-9.dll usr/share/doc/ usr/share/locale/"
-libgoocanvas2_0_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/gtk-doc/"
+libgoocanvas2_0_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/"
+libgoocanvas2_0_doc_CATEGORY="Doc"
+libgoocanvas2_0_doc_CONTENTS="usr/share/gtk-doc/"
 girepository_GooCanvas2_0_CONTENTS="usr/*/gir*/GooCanvas-2.0.* ${PYTHON_SITELIB#/}/gi/overrides/GooCanvas.*"
